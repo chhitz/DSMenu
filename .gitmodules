@@ -1,0 +1,15 @@
+[submodule "src/vendor/CocoaLumberjack"]
+	path = src/vendor/CocoaLumberjack
+	url = https://github.com/CocoaLumberjack/CocoaLumberjack.git
+[submodule "src/vendor/NSString-Hashes"]
+	path = src/vendor/NSString-Hashes
+	url = https://github.com/hypercrypt/NSString-Hashes.git
+[submodule "src/vendor/QuincyKit"]
+	path = src/vendor/QuincyKit
+	url = https://github.com/bitstadium/QuincyKit.git
+[submodule "src/vendor/StartAtLoginController"]
+	path = src/vendor/StartAtLoginController
+	url = https://github.com/alexzielenski/StartAtLoginController.git
+[submodule "src/vendor/RHPreferences"]
+	path = src/vendor/RHPreferences
+	url = https://github.com/vilhalmer/RHPreferences.git
