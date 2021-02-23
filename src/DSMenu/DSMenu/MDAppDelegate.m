@@ -239,9 +239,9 @@
         // build zone menus
         for(NSDictionary *zoneDict in zones)
         {
-            if([[zoneDict objectForKey:@"id"] intValue] == 0)
+            if([[zoneDict objectForKey:@"id"] intValue] == 0 || [[zoneDict objectForKey:@"id"] intValue] == 65534)
             {
-                // logical ID 0 room
+                // logical ID 0 and -1 rooms
                 continue;
             }
             MDZoneMenuItem *menuItem = [MDZoneMenuItem menuItemWithZoneDictionary:zoneDict target:self];
